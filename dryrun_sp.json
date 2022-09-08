@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "parameters": {
+            "actionName": "createOrUpdate",
+            "targetService": {
+                "type": "AzureResource",
+                "id": "/subscriptions/d82d7763-8e12-4f39-a7b6-496a983ec2f4/resourceGroups/houk-test2/providers/Microsoft.Storage/storageAccounts/houkaccount2/blobServices/default"
+            },
+            "authInfo": {
+                "authType": "servicePrincipalSecret",
+                "clientId": "7c6afe09-63db-4abd-92fe-81c9ba5ee160",
+                "principalId": "0aec0885-96ec-4acb-a8f3-5d7389c408e8",
+                "secret": "***********"
+            },
+            "publicNetworkSolution": {
+                "firewallRules": {
+                    "bypass": "CallerClientIP"
+                }
+            },
+            "clientType": "django"
+        }
+    }
+}

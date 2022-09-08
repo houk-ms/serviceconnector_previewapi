@@ -1,0 +1,5 @@
+{
+    "customizedKeys": {
+        "AZURE_STORAGEBLOB_CONNECTIONSTRING": "CONNECTIONSTRING_AZURE_STORAGEBLOB"
+    }
+}
