@@ -2,7 +2,7 @@
     "properties": {
         "targetService": {
             "type": "AzureResource",
-            "id": "/subscriptions/d82d7763-8e12-4f39-a7b6-496a983ec2f4/resourceGroups/houk-test2/providers/Microsoft.Storage/storageAccounts/houkaccount2/blobServices/default"
+            "id": "/subscriptions/937bc588-a144-4083-8612-5f9ffbbddb14/resourceGroups/houk-test/providers/Microsoft.Storage/storageAccounts/houkaccount2/blobServices/default"
         },
         "authInfo": {
             "authType": "servicePrincipalSecret",
