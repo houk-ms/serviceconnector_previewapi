@@ -1,9 +1,9 @@
 ## Dryrun
 ### create dryrun resource
-az rest --method put --resource https://management.azure.com/ --url https://eastus2euap.management.azure.com/subscriptions/937bc588-a144-4083-8612-5f9ffbbddb14/resourceGroups/houk-test/providers/Microsoft.ServiceLinker/locations/eastus2euap/dryruns/houklc-dryrun?api-version=2022-07-01-privatepreview --body `@dryrun_sp.json --debug
+az rest --method put --url https://management.azure.com/subscriptions/937bc588-a144-4083-8612-5f9ffbbddb14/resourceGroups/houk-test/providers/Microsoft.ServiceLinker/locations/eastus2euap/dryruns/houklc-dryrun?api-version=2022-07-01-privatepreview --body `@dryrun_sp.json --debug
 
 ### get dryrun result from Azure-AsyncOperation
-az rest --method get --resource https://management.azure.com/ --url Azure-AsyncOperation
+az rest --method get --url <Azure-AsyncOperation>
 
 
 ## Create Connector

@@ -15,7 +15,7 @@
         }, 
         "publicNetworkSolution": {
             "firewallRules": {
-                "bypass": "CallerClientIP"
+                "callerClientIP": "true"
             }
         }
     }
