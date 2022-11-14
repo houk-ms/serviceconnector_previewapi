@@ -1,5 +1,5 @@
 {
     "customizedKeys": {
-        "AZURE_STORAGEBLOB_CLIENTSECRET": "CUSTOMIZED_KEY"
+        "AZURE_STORAGEACCOUNT_CONNECTIONSTRING": "ConnectionStrings--Houk"
     }
 }
