@@ -51,8 +51,8 @@ Case3.
 When `authType == secret`, the result has the following possible types
 - `ConfigFirewallRule`: When caller IP is not in firewall white list.
 - `ConfigKeyVaultSecret`: When using keyvault secret store.
-- `ListAccessKeys`: Only possible in cloud connection, as local connection won't list access key in creation, instead, it lists access key in generateConfiguration.
-- `ConfigSourceProperties`: Only possible in cloud connection, as local connection won't config app settings.
+- `ListAccessKeys`: **Only possible in cloud connection**, as local connection won't list access key in creation, instead, it lists access key in generateConfiguration.
+- `ConfigSourceProperties`: **Only possible in cloud connection**, as local connection won't config app settings.
 
 Sample of `ConfigFirewallRule` type.
 ```
