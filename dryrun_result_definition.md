@@ -1,4 +1,4 @@
-# Dryrun Response
+# Dryrun Result Definition
 Dryrun response consists of two parts
 - `prerequisiteResults`: Pre-check of the request payload and users' permissions.
 - `operationPreivews`: Actions SC will take when creating the connection.
