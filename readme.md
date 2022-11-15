@@ -8,7 +8,7 @@ az rest --method put --url https://management.azure.com/subscriptions/937bc588-a
 ### get dryrun result from Azure-AsyncOperation
 az rest --method get --url <Azure-AsyncOperation>
 
-Check [dryrun response definition](dryrun_response.md) or [sample results](dryrun_sample_results.json). 
+Check [dryrun result definition](dryrun_result_definition.md) or [dryrun sample response](dryrun_sample_response.json). 
 
 ## Create Connector
 ### create a connector
