@@ -2,11 +2,6 @@
     "properties": {
         "prerequisiteResults": [
             {
-                "type": "basicError",
-                "code": "InvalidArgument",
-                "message": "Client type Django is not supported by target resource. Supported client types are None,Dotnet,Java,Nodejs,Python,SpringBoot",
-            },
-            {
                 "type": "permissionsMissing",
                 "scope": "/subscriptions/d82d7763-8e12-4f39-a7b6-496a983ec2f4/resourceGroups/servicelinker-test-linux-group/providers/Microsoft.KeyVault/vaults/sc-kv-reader",
                 "permissions": [
@@ -14,11 +9,14 @@
                 ]
             },
             {
-                "type": "permissionsMissing",
-                "scope": "/subscriptions/d82d7763-8e12-4f39-a7b6-496a983ec2f4/resourceGroups/servicelinker-test-linux-group/providers/Microsoft.ManagedIdentity/userAssignedIdentities/sc-managed-identity",
-                "permissions": [
-                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action"
-                ]
+                "type": "basicError",
+                "code": "ResourceNotFound",
+                "message": "The Resource 'Microsoft.Storage/storageAccounts/houkaccount2' under resource group 'houk-test' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix"
+            },
+            {
+                "type": "basicError",
+                "code": "InvalidArgument",
+                "message": "Client type Django is not supported by target resource. Supported client types are None,Dotnet,Java,Nodejs,Python,SpringBoot"
             }
         ],
         "operationPreviews": [
